@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxSoundObjects.h"
-#include "waveformDraw.h"
+//#include "waveformDraw.h"
 #include "ofxSoundRecorderObject.h"
 
 class ofApp : public ofBaseApp{
@@ -25,7 +25,7 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 	
 	
-	waveformDraw wave;
+	//waveformDraw wave;
 	ofxSoundInput input;
 	ofxSoundOutput output;
 	ofSoundStream stream;
